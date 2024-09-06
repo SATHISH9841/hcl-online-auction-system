@@ -1,0 +1,175 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image:url("/media/auction-hammer.jpg");
+    background-size:cover;
+    b
+    
+
+}
+
+header {
+    background-color: #2bca6880;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.auctions, .auction-details, .login-form, .register-form {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.auction-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.auction-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.auction-item h3 {
+    margin: 0;
+}
+
+.auction-item p {
+    margin: 5px 0;
+}
+
+.auction-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auction-item a:hover {
+    text-decoration: underline;
+}
+
+.bid-form label, .login-form label, .register-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bid-form input, .login-form input, .register-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.bid-form button, .login-form button, .register-form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bid-form button:hover, .login-form button:hover, .register-form button:hover {
+    background-color: #555;
+}
+/* Create Auction Form Styling */
+.create-auction-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-auction-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-auction-form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.create-auction-form input, 
+.create-auction-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.create-auction-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-auction-form button:hover {
+    background-color: #555;
+}
+#placebutton
+{
+    display:flex;
+    border: #333 solid 1px;
+    width: 73px;
+    border-radius:8px;
+    background-color: #d4e308dd;
+    justify-content: center;
+    
+}
+
+#placebutton1
+{
+    display:flex;
+    border: #333 solid 1px;
+    width: 73px;
+    border-radius:8px;
+    background-color: #d4e308dd;
+    justify-content: center;
+    
+.auctions.auction-list.auction-item.sideimage
+{
+    border: #333 solid 1px;
+   height: 100;
+   display: flex;
+   background-image: url("/media/images.png");
+}
+
